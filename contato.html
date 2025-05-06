@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Contato</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li>
+                    <a href="index.html" class="navbar__list-item">Sobre</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="navbar__list-item"
+                        >Portfólio</a
+                    >
+                </li>
+                <li>
+                    <a href="formacao.html" class="navbar__list-item"
+                        >Formação</a
+                    >
+                </li>
+                <li>
+                    <a href="contato.html" class="navbar__list-item">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="contato">
+            <h2>Contato</h2>
+            <p>
+                Se você deseja entrar em contato, mande através do formulário
+                abaixo:
+            </p>
+            <form method="post" action="#" class="contato__form">
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    required
+                    class="contato__input"
+                />
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    class="contato__input"
+                />
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="4"
+                    required
+                    class="contato__textarea"
+                ></textarea>
+
+                <button type="submit" class="contato__botao">Enviar</button>
+            </form>
+        </section>
+        <footer class="footer">
+            <p>&copy; 2025 Lucas Verissimo. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>

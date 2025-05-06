@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li><a href="index.html" class="navbar__list-item">Sobre</a></li>
+                <li>
+                    <a href="portfolio.html" class="navbar__list-item"
+                        >Portfólio</a
+                    >
+                </li>
+                <li>
+                    <a href="formacao.html" class="navbar__list-item"
+                        >Formação</a
+                    >
+                </li>
+                <li>
+                    <a href="contato.html" class="navbar__list-item"
+                        >Contato</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <section class="portfolio">
+            <h2>Portfólio</h2>
+            <div class="portfolio__grid">
+                <div class="portfolio__item">
+                    <img
+                        src="./images/mapa.jpeg"
+                        alt="Projeto 1"
+                        class="portfolio__imagem"
+                    />
+                    <div class="portfolio__descricao">
+                        <h3>Geolocator</h3>
+                        <p>
+                            Este projeto exibe a localização do usuário em um
+                            mapa interativo usando Leaflet e a API do
+                            OpenWeather. O usuário pode visualizar sua
+                            localização atual ou pesquisar uma cidade, que será
+                            marcada no mapa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img
+                        src="./images/bookmarkl.png"
+                        alt="Projeto 2"
+                        class="portfolio__imagem"
+                    />
+                    <div class="portfolio__descricao">
+                        <h3>Bookmark website</h3>
+                        <p>
+                            Este projeto é um Bookmark Website simples, onde o
+                            usuário pode adicionar e visualizar links com seus
+                            respectivos nomes. O layout foi feito com Tailwind
+                            CSS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="portfolio__divider" />
+            <div class="portfolio__github">
+                <p>
+                    Confira mais projetos no meu
+                    <a
+                        href="https://github.com/LucasVer17"
+                        target="_blank"
+                        class="portfolio__github-link"
+                        >GitHub</a
+                    >
+                </p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 Lucas Verissimo. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
